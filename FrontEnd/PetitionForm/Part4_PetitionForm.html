@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Petition Form</title>
+  		<meta charset="utf-8">
+		<style>
+		
+		body{
+		padding-left :100px;
+		padding-right: 100px;
+		margin-left:100px;
+		margin-right:100px;
+		}
+		
+		.table2 {
+		padding-left :100px;
+		padding-right: 100px;
+		text-align:center;
+		display : inline-grid;
+		grid-gap: 50px;
+		
+		}
+		
+	/*.row1 {
+		display : inline-grid;
+		grid-template-columns: 250px 250px 250px;
+		grid-gap: 10px;
+		
+		}*/
+		
+		.heading{
+		text-align : center;
+		}
+		
+		.headingdesc{
+		font-size: 30px;
+		text-align : center;
+		}
+		
+		
+		.line1{
+		font-size: 25px;
+		width:100%;
+		display:block;
+		text-align: justify;
+		}
+		
+		
+		
+		.table1{
+		text-align:center;
+		
+		}
+		
+		
+		.tableheading{
+		font-weight : bold;
+		font-size : 15px;
+		background-color: lightblue;
+		}
+		
+		
+		h3{
+		text-align : center;
+		}
+		
+		
+		hr { 
+  		display: block;
+    	margin-top: 0.5em;
+    	margin-bottom: 0.5em;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border-style: inset;
+    	border-width: 3px;
+		}
+
+
+		#submitBtn{
+		display:block;
+		width: 250px;
+  		text-align: center;
+	  	margin:0 auto;
+		}
+		
+		.btn{
+		display:block;
+		border-radius : 5px;
+		display : inline;
+		margin : 0;
+
+		}
+
+
+		.btn-alt{
+		border : 1px solid #dfe2e5;
+		padding : 10px 30px;
+		}
+
+		
+		</style>
+	</head>
+	
+	
+	
+	<body>
+
+		
+		
+		<table class="table2" width="100%" cellspacing="100%">
+			<tr> 
+				<td > <img src="neulogo2.png" height="130"> </td>
+			
+				<td > <img src="2.png" > </td>
+			
+				<td> 
+				<strong>Graduate School of Engineering</strong> <br/>
+		 		<strong>130 Snell Engineering Center</strong> <br/>
+		 		Northeastern University <br/> 
+		 		360 Huntington Avenue <br/>
+		 		Boston, MA 02115-5000 <br/> 
+		 		</td>
+			
+				<td> 
+				Phone: 617.373.2711 <br/>
+		 		Fax: 617.373.2571 <br/>
+		 		Web: www.coe.neu.edu/gse  
+		 		</td>
+			</tr>
+		</table>
+		
+		
+		<h1 class="heading">PETITION FORM</h1>
+		<hr>
+		
+		<p class="headingdesc">
+		You must provide <strong><u>all</strong></u>
+		required supporting documents before a final decision is made on your petition.
+		</p>
+		<hr>
+		
+		<div class="line1">
+			<label> NU ID &nbsp<input type="text" name="nuid" id="nuid" placeholder="9 digit id"></label>
+			<label> &nbsp Current program/Concentration &nbsp<input type="text" name="course" size="35"></label> <br/><br/>
+		</div>
+		
+		<div class="line1">
+		<label>Last or Family Name &nbsp<input type="text" name="lname"></label>
+		<label>&nbsp First or Given Name &nbsp<input type="text" name="fname"></label>
+		<label>&nbsp Middle Name &nbsp<input type="text" name="mname" placeholder="optional"></label><br/><br/>
+		</div>
+		
+		
+		<div class="line1">
+		<fieldset>
+			<legend><em>Address</em></legend>
+			<label>Street/Street# &nbsp<input type="text" name="street" size="50"></label>
+			<label>&nbsp City &nbsp<input type="text" name="city"></label>
+			<label>&nbsp State &nbsp
+				<select name="states" style="max-width:90%;">
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+				</select>
+			</label>
+			<label>&nbsp Zipcode &nbsp<input type="text" name="zipcode" size="10"></label>
+			
+		</fieldset><br/>
+		</div>
+		
+		
+		<div class="line1">
+		<label>Phone &nbsp<input type="text" name="phone" placeholder="Enter with country code"></label>
+		<label>&nbsp Husky E-Mail &nbsp<input type="text" name="fname" placeholder="name@husky.neu.edu"></label>
+		<br/><br/>
+		</div>
+		
+		
+		<div class="line1">
+		<label>Current Degree Level : 
+		<input type="radio" name="degree" value="ms"> MS &nbsp
+		<input type="radio" name="degree" value="phd"> PhD &nbsp
+		<input type="radio" name="degree" value="certificate only"> Certificate Only &nbsp
+		<input type="radio" name="degree" value="special student"> Special Student &nbsp
+		</label> 
+		&nbsp &nbsp &nbsp &nbsp &nbsp
+		<label><input type="radio" name="int-dom" value="international"> International &nbsp
+		<input type="radio" name="int-dom" value="domestic"> Domestic &nbsp
+		</label>
+		<br/><br/>
+		</div>
+		
+		
+		
+		<hr class="hr2"><hr>		
+		<div class="line1">
+		<label> Check all that apply: <br/>
+		<input type="checkbox" name="info" value="Elective outside"> Elective outside core curriculum &nbsp
+		<input type="checkbox" name="info" value="course waiver"> Core Course waiver &nbsp
+		<input type="checkbox" name="info" value="ms"> Change in status &nbsp
+		<input type="checkbox" name="info" value="ms"> Course repeat/official substitution &nbsp <br/>
+		<input type="checkbox" name="info" value="ms"> Extension of time limit to program submission <br/>
+		<input type="checkbox" name="info" value="ms"> Others (specify) <input type="text" name="info" size="50" >
+		</label>
+		
+		
+		<p>1. For each course concerned, please provide the information below:</p>
+		<table name="table1" border="1" width="100%">
+		<tr name="tableheading">
+			<th colspan="3"> Course Name </th>
+			<th> Term </th>
+			<th> CRN # </th>
+			<th> Course # </th>
+			<th> # Credits </th>
+		</tr>
+		<tr>
+			<td colspan="3"> <input type="text"> </td>
+			<td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+		</tr>
+		<tr>
+			<td colspan="3"> <input type="text"> </td>
+			<td> <input type="text">  </td>
+			<td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+		</tr>
+	    </table>
+	    
+	    
+	    <p>2. What are you petitioning? Please explain (attach separate sheet if necessary):</p>
+	    <textarea name="petitiondesc" cols="100%" rows="5" placeholder="enter your reason"></textarea>
+	    <br/><br/>
+	    
+	    <label name="stud_signature">3. Student Signature: <input type="file" accept="image/*"></label>
+	    <label name="dat1">Date : <input type="date" placeholder="MM/DD/YYYY"><br/>
+	    </label>
+	    
+	    
+	    <hr>
+	    <hr >
+	    <h3 >SUBMIT PETITION AND ANY SUPPORTING DOCUMENTS TO YOUR PROGRAM ADVISOR</h3>
+	    <hr>
+	    
+	    <div class="line1">
+	    <strong><em>Program Advisor</em></strong> &nbsp &nbsp &nbsp &nbsp
+	    <label name="recommendation"> 
+	    <input type="radio" name="recommend" value="Approved"> Approved &nbsp
+	    <input type="radio" name="recommend" value="Denied"> Denied
+	    </label><br/>
+	    </div>   
+	    
+	    
+	    <div class="line1">
+	    <label name="adv_signature">Signature: <input type="file" accept="image/*"></label>
+	    <label name="adv_name"> Print Name <input type="text" name="printName"></label><br/>
+	    <label name="adv_commnets"> Advisor's comments or instructions <input type="text" size="80px"></label> &nbsp &nbsp &nbsp
+	    <label name="dat2">Date : <input type="date" placeholder="MM/DD/YYYY"></label><br/>
+	    <label name="adv_commnets"> ECE Graduate Committee Chairman <input type="text" size="78px"></label> &nbsp &nbsp &nbsp
+	    <label name="dat3">Date : <input type="date" placeholder="MM/DD/YYYY"></label><br/>
+	    </div>
+	    
+	    
+	    <hr>
+	    <div class="line1">
+	    <strong><em>Graduate School</em></strong> &nbsp
+	    <input type="radio" name="grad_school" value="approved"> Approved &nbsp
+	    <input type="radio" name="grad_school" value="denied"> Denied &nbsp
+	    <input type="radio" name="grad_school" value="noaction"> No Action &nbsp
+	    <input type="radio" name="grad_school" value="returned"> Returned for additional information &nbsp
+	    <input type="radio" name="grad_school" value="ascReportFiled"> ASC Report filed &nbsp
+	    </div>
+	    
+	    
+	    <div class="line1">
+	    <label name="comments">Comments to student:<input type="text" name="comments" size="100%"></label><br/>
+	    <label name="authorization">Graduate school authorization <input type="text" ></label>
+	    <label name="dat4"> Date : <input type="date" placeholder="MM/DD/YYYY"></label> &nbsp
+	    <label name="term"> Effective Term <input type="text" ></label><br/> &nbsp
+	    </div>
+	    
+	    
+	    <input class="btn btn-alt" type="submit" value="Submit Form" id="submitBtn">
+	    
+	
+	</body>
+
+</html>
+
+
